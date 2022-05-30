@@ -231,8 +231,8 @@ module.exports = {
           if (!('isBanned' in chat)) chat.isBanned = false
           if (!('welcome' in chat)) chat.welcome = true
           if (!('detect' in chat)) chat.detect = true
-          if (!('sWelcome' in chat)) chat.sWelcome = ''
-          if (!('sBye' in chat)) chat.sBye = ''
+          if (!('sWelcome' in chat)) chat.sWelcome = true
+          if (!('sBye' in chat)) chat.sBye = true
           if (!('sPromote' in chat)) chat.sPromote = ''
           if (!('sDemote' in chat)) chat.sDemote = ''
           if (!('descUpdate' in chat)) chat.descUpdate = true
@@ -247,8 +247,8 @@ module.exports = {
           isBanned: false,
           welcome: true,
           detect: true,
-          sWelcome: '',
-          sBye: '',
+          sWelcome: true,
+          sBye: true,
           sPromote: '',
           sDemote: '',
           descUpdate: true,
